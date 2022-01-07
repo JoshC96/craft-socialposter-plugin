@@ -1,0 +1,6 @@
+
+
+{% set post = craft.entries.section("userPosts").authorId(currentUser.id).one() %}
+
+
+{% include 'teasers/postHorizontal.twig' with {self:post} %}

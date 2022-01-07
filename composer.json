@@ -1,0 +1,41 @@
+{
+    "name": "nightfallstudios/social-media-manager",
+    "description": "Manage user's social media accounts. Post and get statuses and see stats",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "social media manager"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nightfall Studios",
+            "homepage": "https://www.nightfallstudios.com.au/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "nightfallstudios\\socialmediamanager\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Social Media Manager",
+        "handle": "social-media-manager",
+        "developer": "Nightfall Studios",
+        "developerUrl": "https://www.nightfallstudios.com.au/",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "class": "nightfallstudios\\socialmediamanager\\SocialMediaManager"
+    }
+}
