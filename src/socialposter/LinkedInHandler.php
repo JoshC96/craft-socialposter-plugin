@@ -1,5 +1,8 @@
 <?php
 
+namespace nightfallstudios\socialmediamanager\socialposter;
+
+use craft\test\Craft;
 use League\OAuth2\Client\Provider\LinkedIn;
 use League\OAuth2\Client\Token\LinkedInAccessToken;
 

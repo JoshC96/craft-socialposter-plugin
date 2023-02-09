@@ -1,5 +1,7 @@
 <?php
 
+namespace nightfallstudios\socialmediamanager;
+
 
 class SocialPoster
 {

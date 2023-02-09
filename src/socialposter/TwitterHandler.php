@@ -1,5 +1,7 @@
 <?php
 
+namespace nightfallstudios\socialmediamanager\socialposter;
+
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 class TwitterHandler

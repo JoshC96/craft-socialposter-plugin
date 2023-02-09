@@ -1,5 +1,6 @@
 <?php
 
+namespace nightfallstudios\socialmediamanager\socialposter;
 
 use Facebook\Facebook;
 

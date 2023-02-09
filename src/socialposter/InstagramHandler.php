@@ -1,5 +1,7 @@
 <?php
 
+namespace nightfallstudios\socialmediamanager\socialposter;
+
 use League\OAuth2\Client\Provider\Instagram;
 
 class InstagramHandler

@@ -10,10 +10,6 @@
         "craft-plugin",
         "social media manager"
     ],
-    "support": {
-        "docs": "???",
-        "issues": "???"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +18,10 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^3.0",
+      "ext-curl": "*",
+        "ext-json": "*",
+      "ext-simplexml": "*"
     },
     "autoload": {
         "psr-4": {
